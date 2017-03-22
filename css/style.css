@@ -303,7 +303,9 @@ label.error .fa{
 /* 1.5 Buttons */
 
 
-
+.social{
+    margin-top: 5px;
+}
 .btn{
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;

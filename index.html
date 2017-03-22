@@ -3,6 +3,12 @@
   <head>
     <meta  charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta property="og:url"           content="https://cpp-coding-challenge.github.io/" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="SoCal High School Programming Contest (HSPC)" />
+  <meta property="og:description"   content="The First SoCal High School Programming Contest (HSPC) hosted by Cal Poly Pomona (CPP) brings talented students from high schools throughout Southern California to the CPP campus to participate in an organized competition. Students individually compete to demonstrate their programming skills and problem solving abilities by attempting to solve six programming problems within a three hour period.
+" />
+  <meta property="og:image"         content="https://cpp-coding-challenge.github.io/favicons/favicon-96x96.png" />
     <title>SoCal High School Programming Contest (HSPC)</title>
 
     <!-- Favicons -->
@@ -43,7 +49,7 @@
 
 </head>
 <body>
-
+<div id="fb-root"></div>
   <!-- Loader -->
 
   <div class="loader">
@@ -423,11 +429,13 @@
           <div class="row">
             <div class="col-md-5">
               <div class="social">
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-twitter"></a>
-                <a href="#" class="fa fa-pinterest"></a>
-                <a href="#" class="fa fa-youtube-play"></a>
+                <div class="fb-share-button" data-href="https://cpp-coding-challenge.github.io/" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcpp-coding-challenge.github.io%2F&amp;src=sdkpreparse">Share</a></div>
               </div>
+                <div class="social">
+                    <a class="twitter-share-button" 
+  href="https://twitter.com/intent/tweet?text=Sign%20up%20for%20the%20HSPC!%20@CalPolyPomona">
+Tweet</a>
+                </div>
             </div>
             <div class="col-md-7 text-right-md">
               <div class="copy">
@@ -452,7 +460,31 @@
     ga('create', 'UA-93767936-1', 'auto');
     ga('send', 'pageview');
   </script>
+  <!--Twitter API-->
+  <script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
 
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+  <!---FB API -->
+  <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=303186076766074";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/smoothscroll.js"></script>
