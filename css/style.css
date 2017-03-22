@@ -997,6 +997,9 @@ label.error .fa{
   text-align: center;
   padding:4em 0;
 }
+.partners-cpp{
+    padding-top: 130px;
+}
 
 .partners .owl-controls{
   position: absolute;
@@ -1065,6 +1068,7 @@ label.error .fa{
   height: 30em;
   border: 0;
   text-align: center;
+  margin-top: 20px;
 }
 
 .map-info{
