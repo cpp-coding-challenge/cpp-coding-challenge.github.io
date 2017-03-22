@@ -438,6 +438,9 @@ label.error .fa{
 .row-columns{
   margin-top: -4em;
 }
+.row-column{
+   margin-top: -1em; 
+}
 
 .column{
   margin-top: 4em;
