@@ -449,7 +449,9 @@ label.error .fa{
 .section{
   padding: 7em 0;
 }
-
+.reg{
+    margin-top: 25px;
+}
 .section-sm{
   padding: 4em 0;
 }
