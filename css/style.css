@@ -991,7 +991,9 @@ label.error .fa{
 /*  7. Partners
 /* ------------------------------------------------------------------------------- */
 
-
+th{
+    text-align: center;
+}
 
 .partners{
   text-align: center;
