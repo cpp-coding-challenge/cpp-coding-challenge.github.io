@@ -5,7 +5,7 @@
   Author: Murren
   Author URI: http://themeforest.net/user/murren20
   Version: 1.0
-  
+
   1.  Global
 
       1.1 General
@@ -18,7 +18,7 @@
       1.8 Backgrounds
       1.9 Content styles
 
-  2.  Header 
+  2.  Header
 
       2.1 Brand
       2.2 Navigation
@@ -41,8 +41,8 @@
       11.2 Min width 992px
       12.4 Min width 1200px
 
-    
-    
+
+
 /*-------------------------------------------------------------------------------
   1. Global
 -------------------------------------------------------------------------------*/
@@ -135,7 +135,7 @@ body{
 
 
 h1,
-.h1{ 
+.h1{
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 4.1em;
@@ -144,7 +144,7 @@ h1,
 }
 
 h2,
-.h2{ 
+.h2{
   font-family: 'Montserrat', sans-serif;
   position: relative;
   font-size: 2.1em;
@@ -196,7 +196,7 @@ ul li{
   margin-top: 10px;
 }
 
-p{ 
+p{
   margin:10px 0 0;
 }
 
@@ -441,7 +441,7 @@ label.error .fa{
   margin-top: -4em;
 }
 .row-column{
-   margin-top: -1em; 
+   margin-top: -1em;
 }
 
 .column{
@@ -535,7 +535,7 @@ label.error .fa{
 .navbar-toggle .icon-bar{
   background-color: #ff7b7b;
   height: 2px;
-  width: 30px; 
+  width: 30px;
 }
 
 .navbar-toggle .icon-bar + .icon-bar{
@@ -690,7 +690,7 @@ label.error .fa{
   color: #4B4B4C;
 }
 
-.navbar.affix .navbar-nav > li > a:hover, 
+.navbar.affix .navbar-nav > li > a:hover,
 .navbar.affix .navbar-nav > .active > a{
   color: #fff;
 }
@@ -784,7 +784,7 @@ label.error .fa{
 .mfp-wrap .mfp-content {
   -webkit-perspective: 1300px;
           perspective: 1300px
-  
+
 }
 
 .mfp-wrap .mfp-figure,
@@ -843,7 +843,7 @@ label.error .fa{
       -ms-transform: rotateX(-60deg);
        -o-transform: rotateX(-60deg);
           transform: rotateX(-60deg);
-  
+
 }
 
 .mfp-removing.mfp-bg {
@@ -1052,7 +1052,7 @@ th{
           transition: .2s linear;
 }
 
-.owl-controls .owl-page.active span, 
+.owl-controls .owl-page.active span,
 .owl-controls .owl-page:hover span{
   background-color:#ff7b7b;
 }
@@ -1072,7 +1072,7 @@ th{
   text-align: center;
   margin-left: 30px;
   margin-right: 30px;
-  
+
 }
 
 .map-info{
@@ -1202,7 +1202,7 @@ body:not(.modal-open){
   line-height: 1;
   color:#9F9F9F;
   text-align: center;
-  text-shadow: none; 
+  text-shadow: none;
   cursor: pointer;
   border-radius: 50%;
   opacity: 1;
@@ -1367,6 +1367,3 @@ form{
   }
 
 }
-
-
-
