@@ -41,7 +41,7 @@
       11.2 Min width 992px
       12.4 Min width 1200px
 
-  ** Previous Contests - Carousel**
+  ** Previous Contests - Carousel **
 
 /*-------------------------------------------------------------------------------
   1. Global
@@ -997,7 +997,7 @@ th{
 
 .partners{
   text-align: center;
-  padding:4em 0;
+  padding: 2em 0;
 }
 .partners-cpp{
     padding-top: 130px;
@@ -1019,6 +1019,9 @@ th{
   margin:0 auto;
 }
 
+.sponsor-icon {
+  padding: 0 2em;
+}
 
 
 /* 7.1 Owl carousel */
