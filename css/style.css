@@ -1000,7 +1000,7 @@ th{
   padding: 2em 0;
 }
 .partners-cpp{
-    padding-top: 130px;
+    padding-top: 0;
 }
 
 .partners .owl-controls{
@@ -1012,11 +1012,15 @@ th{
 .partner{
   opacity: 0.5;
   padding:2em 3em;
-
+  box-sizing: border-box;
+  display: inline-block;
+  width: 33.33%;
 }
 
 .partner img{
   margin:0 auto;
+  max-width: 200px;
+  height: auto;
 }
 
 .sponsor-icon {
