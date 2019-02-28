@@ -1259,10 +1259,12 @@ body:not(.modal-open){
   padding-top: 55px;
   padding-bottom: 55px;
 }
+
 form{
-    margin-right: 40px;
-    margin-left: 40px;
-    margin-top: 30px;
+  margin: auto;
+  padding-right: 10%;
+  padding-left: 10%;
+  max-width: 1000px;
 }
 
 
